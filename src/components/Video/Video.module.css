@@ -1,0 +1,42 @@
+.videoContent {
+    max-width: 1920px;
+    width: 100%;
+    height: 696px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.videoContent video {
+    width: 100%;
+    object-fit: contain;
+    height: 696px;
+}
+
+.videoPlayer::-webkit-media-controls-pause-button {
+    /* estilo dos botões de reprodução/pausa */
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+}
+
+@media (max-width:1140px){
+    .videoContent {
+        max-width: 1920px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .videoContent video {
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+    }
+}

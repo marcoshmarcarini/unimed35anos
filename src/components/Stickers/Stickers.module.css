@@ -1,0 +1,417 @@
+.stickersFiltros {
+    background: rgb(42, 157, 79);
+    background: linear-gradient(315deg, rgba(42, 157, 79, 1) 0%, rgba(176, 209, 75, 1) 100%);
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.stickers {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #008c50;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+.stickersTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.stickers p {
+    font-family: UnimedSans-ExtraBoldItalic;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 400px;
+}
+
+.stickers p span {
+    color: #b0d14b;
+}
+
+.stickers a {
+    font-family: UnimedSans-SemiBold;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stickers a:hover {
+    color: #bbcf33;
+    background-color: transparent;
+    border: 1px solid #bbcf33;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.05);
+}
+
+.stickerImg {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    transform: translateX(50px);
+}
+
+.stickerImg img {
+    width: 120px;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #08484c;
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.filtro p {
+    font-family: UnimedSans-ExtraBoldItalic;
+    color: #b0d14b;
+    font-size: 1.5rem;
+}
+
+.filtro p span {
+    color: #ffffff;
+}
+
+.filtroLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filtroLinks a {
+    font-family: UnimedSans-SemiBold;
+    text-decoration: none;
+    color: #08484c;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(176, 209, 75, 1) 100%);
+    padding: 10px 15px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    transform: translateX(80px);
+}
+
+.filtroLinks a span {
+    font-family: UnimedSans-ExtraBold;
+}
+
+.filtro a:hover {
+    color: #bbcf33;
+    background-color: transparent;
+    border: 1px solid #bbcf33;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.05);
+    box-shadow: 1px 1px 8px #bbcf3330;
+}
+
+.moldura {
+    background: rgb(182, 213, 89);
+    background: linear-gradient(315deg, rgba(182, 213, 89, 1) 0%, rgba(239, 246, 219, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    padding: 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.molduraLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 20px;
+}
+
+.molduraLink a {
+    font-family: UnimedSans-SemiBold;
+    text-decoration: none;
+    color: #08484c;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid #08484c;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.molduraLink a:hover {
+    color: #bbcf33;
+    background-color: transparent;
+    border: 1px solid #bbcf33;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.05);
+}
+
+.moldura p {
+    font-family: UnimedSans-ExtraBoldItalic;
+    font-size: 1.5rem;
+    color: #08484c;
+}
+
+.moldura img {
+    width: 120px;
+}
+
+.molduraTxt{
+    font-family: UnimedSans-BoldItalic;
+    font-size: 1.5rem;
+}
+.molduraImg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(176, 209, 75, 1) 100%);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    transform: translateX(50px);
+}
+
+.inputContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputUp{
+    display: none;
+}
+
+.inputUpLabel{
+    width: 200px;
+    height: 50px;
+    border: 2px dashed #08484c;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: UnimedSans-Regular;
+}
+
+.inputUpLabel:hover{
+    background-color: #b0d14b;
+    color: #08484c;
+    border: 2px solid #08484c;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.05);
+    cursor: pointer;
+}
+
+.molduraContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+
+.imagemUp{
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+.imagemMoldura{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.imagemUpfront{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+
+.btnMoldura{
+    background-color: #08484c;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: UnimedSans-Bold;
+}
+
+.downloadArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.btnDownload{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(176, 209, 75, 1) 100%);
+    color: #08484c;
+    font-family: UnimedSans-Bold;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 130px;
+    margin: auto;
+}
+
+@media(max-width:1140px){
+    .stickersFiltros {
+        flex-wrap: wrap;
+        height: max-content;
+        gap: 20px;
+        transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.05);
+    }
+}
+
+@media(max-width:700px){
+    .stickers {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        background-color: #008c50;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 250px;
+        height: 300px;
+        position: relative;
+        flex-wrap: wrap-reverse;
+    }
+
+    .stickerImg {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        transform: translateX(0px);
+    }
+
+    .stickerImg img {
+        width: 100px;
+    }
+
+    .stickers p {
+        font-family: UnimedSans-ExtraBoldItalic;
+        color: #ffffff;
+        font-size: 0.9rem;
+        width: 200px;
+    }
+
+    .stickersTexto {
+        text-align: center;
+    }
+
+    .stickersTexto a {
+        margin: auto;
+    }
+
+    .filtro {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+        background-color: #08484c;
+        width: 250px;
+        height: 250px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        flex-wrap: wrap;
+    }
+
+    .filtro p {
+        font-family: UnimedSans-ExtraBoldItalic;
+        color: #b0d14b;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .filtroLinks a {
+        font-family: UnimedSans-SemiBold;
+        text-decoration: none;
+        color: #08484c;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(176, 209, 75, 1) 100%);
+        padding: 10px 15px;
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+        border-radius: 30px;
+        position: relative;
+        transform: translateX(0px);
+    }
+
+    .moldura {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 300px;
+    }
+
+    .molduraTxt{
+        text-align: center;
+    }
+
+    .moldura p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .molduraImg {
+        transform: translateX(0px);
+    }
+}

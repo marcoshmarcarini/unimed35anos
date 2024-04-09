@@ -1,0 +1,180 @@
+/* Diretoria */
+.diretoria {
+    background: rgb(5, 96, 77);
+    background: linear-gradient(235deg, rgba(5, 96, 77, 1) 0%, rgba(25, 150, 79, 1) 50%, rgba(169, 206, 75, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 25px;
+    position: relative;
+    z-index: 4;
+}
+
+.uni35AnosOutlineEsquerda {
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 250px;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.uni35AnosOutlineDireita {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 250px;
+    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.diretoriaTituloContent{
+    font-family: UnimedSans-ExtraBold;
+    font-size: 2.5rem;
+    color: #b0d14b;
+    text-align: center;
+    max-width: 500px;
+}
+
+.diretoriaTituloContent span {
+    font-family: UnimedSans-ExtraBoldItalic;
+    color: #08484c;
+    padding: 0 5px;
+}
+
+.diretoriaExecutivaContent {
+    padding: 25px 20px;
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cardDiretoriaExecutiva {
+    display: flex;
+    flex-direction: column;
+}
+
+.diretoriaCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.diretoriaTitulo {
+    font-family: UnimedSans-ExtraBoldItalic;
+    color: #b0d14b;
+    font-size: 1.5rem;
+}
+
+#DiretoriaAtual{
+    color: #08484c;
+}
+
+.diretoriaLista {
+    list-style-type: none;
+    font-family: UnimedSans-regularItalic;
+    color: #ffffff;
+}
+
+.diretoriaLista li span {
+    font-family: UnimedSans-ExtraBoldItalic;
+    color: #b0d14b;
+}
+
+.diretoriaLista li strong {
+    font-family: UnimedSans-Light;
+    font-size: 0.9rem;
+}
+
+.cardConselhoAdministrativo,
+.cardConselhoTecnico {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conselhoAdmTitulo,
+.conselhoTecnicoTitulo {
+    font-family: UnimedSans-ExtraBoldItalic;
+    font-size: 1.2rem;
+    color: #b0d14b;
+}
+
+.conselhoAdmLista,
+.conselhoTecnicoLista {
+    list-style-type: none;
+    font-family: UnimedSans-RegularItalic;
+    color: #ffffff;
+}
+
+
+@media(max-width:1140px){
+    .diretoriaExecutivaContent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 700px){
+    .diretoriaExecutivaContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .diretoriaTituloContent {
+        font-family: UnimedSans-ExtraBold;
+        font-size: 2rem;
+        color: #b0d14b;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .diretoriaTitulo {
+        font-family: UnimedSans-ExtraBoldItalic;
+        color: #b0d14b;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .conselhoAdmTitulo, .conselhoTecnicoTitulo{
+        font-family: UnimedSans-ExtraBoldItalic;
+        font-size: 1.1rem;
+        color: #b0d14b;
+        text-align: center;
+    }
+
+    .conselhoAdmLista, .conselhoTecnicoLista{
+        text-align: center;
+    }
+
+    .diretoriaLista {
+        list-style-type: none;
+        font-family: UnimedSans-regularItalic;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .uni35AnosOutlineEsquerda {
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 750px;
+        width: 100px;
+        transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .uni35AnosOutlineDireita{
+        top: 2400px;
+        width: 100px;
+    }
+
+    .presidentesTitulo {
+        font-family: UnimedSans-ExtraBold;
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
