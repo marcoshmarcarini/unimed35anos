@@ -16,6 +16,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.footer}>
+                <p>Central de Vendas: <a href="tel:+552821016206">(28) 2101-6206</a></p>
                 <p>Copyrights, 2024. Unimed Sul Capixaba – Todos os direitos reservados.</p>
                 <Image src="/img/somos-todos-coop.png" alt="somos-todos-coop" width={500} height={500} />
                 <Image src="/img/ans.png" alt="ans" width={500} height={500} />
