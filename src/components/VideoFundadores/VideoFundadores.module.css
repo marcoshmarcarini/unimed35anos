@@ -1,0 +1,11 @@
+.videoFundadores{
+    width: 100vw;
+    height: 696px;
+    aspect-ratio: 16/9;
+}
+
+@media (max-width:991px) {
+    .videoFundadores{
+        height: auto;
+    }
+}
