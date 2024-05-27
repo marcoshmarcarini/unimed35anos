@@ -39,7 +39,7 @@ export default function Stickers() {
 
     return (
         <>
-            <div className={styles.stickersFiltros}>
+            <div className={styles.stickersFiltros} id={`figurinhas`}>
                 <div className={styles.stickers}>
                     <div className={styles.stickersTexto}>
                         <p>Clique no link <br /> e adicione nossos <br /> stickers no seu <span>WhatsApp</span></p>
